@@ -1,9 +1,10 @@
+import BandNameGenerator from './pages/BandNameGenerator/BandNameGenerator'
 import './App.css'
 
 const App = () => {
   return (
     <div className="App">
-      <h1>Band Name Generator -React</h1>
+      <BandNameGenerator />
     </div>
   )
 }
